@@ -1,0 +1,10 @@
+import java.util.*;
+class Minsec
+{
+    public static void main(String hj[])
+    {
+        Scanner in=new Scanner(System.in);
+         int n=in.nextInt();
+         System.out.print(n/60+" "+n%60);
+}
+}
